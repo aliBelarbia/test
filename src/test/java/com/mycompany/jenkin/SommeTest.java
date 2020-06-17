@@ -50,17 +50,17 @@ public class SommeTest {
     /**
      * Test of Multiply method, of class Somme.
      */
-//    @Test
-//    public void testMultiply() {
-//        System.out.println("Multiply");
-//        String nbr1 = "5";
-//        String nbr2 = "8";
-//        int expResult = 33;
-//        int result = Somme.Multiply(nbr1, nbr2);
-//        assertEquals(expResult, result);
-//        // TODO review the generated test code and remove the default call to fail.
-//        //fail("The test case is a prototype.");
-//    }
+    @Test
+    public void testMultiply() {
+        System.out.println("Multiply");
+        String nbr1 = "5";
+        String nbr2 = "8";
+        int expResult = 40;
+        int result = Somme.Multiply(nbr1, nbr2);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
     
   
 }
